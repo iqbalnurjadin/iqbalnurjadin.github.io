@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Test Page: Don't Panic</title>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+  <script src="/js/gallery.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      setNone();
+      activateGallery();
+    });
+  </script>
+</head>
+
+  <body>
+    <header class="header">
+  <nav>
+    <ul class="header-nav nav-links">
+      <li><a href="/">Home</a></li>
+<li><a href="/spectrum">The Spectrum</a></li>
+<li><a href="/learnmore">Learn More</a></li>
+<li><a href="/about">About Us</a></li>
+
+    </ul>
+  </nav>
+  <a href="/" class="header-logo">
+    <img src="/images/spark.png" alt="Spark Logo">
+  </a>
+</header>
+
+
+    <div class="content-container">
+      <h1 class="diagram-title">Social Impact</h1>
+<div class="social-filter nav-links">
+  <a href="/socialimpact">Social Impact Consulting</a>
+  <a href="/socialenterprise">Social Enterprises</a>
+  <a class="main-social-page">Ecosystem Builders</a>
+</div>
+<div class="gal-buttons">
+  <button onclick="impactFunc()" class="gallery-button">Impact Investors</button>
+  <button onclick="commFunc()" class="gallery-button">Community Builders</button>
+  <button onclick="incubFunc()" class="gallery-button">Incubators</button>
+</div>
+
+<div class="to-hide gallery three-col" id="Impact-Invest">
+  <div class="col col-nav gallery-thumbs" id="gallery-thumbs">
+    <div class="current">
+      <img src="/images/ecosystem/impactinvest/small/Patamar-Logo.jpg" alt="Patamar Capital"
+      data-large-version="/images/ecosystem/impactinvest/large/Patamar-Large.jpg"
+      data-title="Patamar Capital"
+      data-location="Location: San Francisco, CA"
+      data-website="http://patamar.com/"
+      data-description="An impact-oriented venture capital firm that invests in high-growing companies that solves South and Southeast Asia’s most pervasive social problems at scale. This for-profit investment company invests in scalable businesses that improves the lives of the poor by engaging the working poor while aiming for high financial and social returns. Past investments include: Kinara in India, Ruma in Indonesia, Kalibrr in Philippines, Trust Circle in Vietnam, and UPay in Sri Lanka.">
+    </div>
+  </div>
+  <div class="col col-content">
+    <div class="gallery-photo" id="gallery-photo">
+      <img src="/images/ecosystem/impactinvest/large/Patamar-Large.jpg" alt="Patamar Capital">
+    </div>
+  </div>
+  <div class="col col-aside gallery-info" id="gallery-info">
+    <h3 class="title">Patamar Capital</h3>
+    <h4 class="location">Location: San Francisco, CA</h4>
+    <a href="http://patamar.com/" target="_blank" class="website">http://patamar.com/</a>
+    <p class="description">An impact-oriented venture capital firm that invests in high-growing companies that solves South and Southeast Asia’s most pervasive social problems at scale. This for-profit investment company invests in scalable businesses that improves the lives of the poor by engaging the working poor while aiming for high financial and social returns. Past investments include: Kinara in India, Ruma in Indonesia, Kalibrr in Philippines, Trust Circle in Vietnam, and UPay in Sri Lanka.</p>
+  </div>
+</div>
+
+<div class="to-hide gallery three-col" id="Community-Builders">
+  <div class="col col-nav gallery-thumbs" id="gallery-thumbs">
+    <div class="current">
+      <img src="/images/ecosystem/community/small/GIIN-Logo.png" alt="GIIN"
+      data-large-version="/images/ecosystem/community/large/GIIN-Large.jpg"
+      data-title="Global Impact Investing Network"
+      data-location="Location: New York City, NY"
+      data-website="http://thegiin.org/"
+      data-description="A membership-based community of impact investors and mission-driven organizations. GIIN contributes to the building of the social impact ecosystem by publishing reports on the developments and research regarding impact investing.">
+    </div>
+  </div>
+  <div class="col col-content">
+    <div class="gallery-photo" id="gallery-photo">
+      <img src="/images/ecosystem/community/large/GIIN-Large.jpg" alt="GIIN">
+    </div>
+  </div>
+  <div class="col col-aside gallery-info" id="gallery-info">
+    <h3 class="title">Global Impact Investing Network</h3>
+    <h4 class="location">Location: New York City, NY</h4>
+    <a href="http://thegiin.org/" target="_blank" class="website">http://thegiin.org/</a>
+    <p class="description">A membership-based community of impact investors and mission-driven organizations. GIIN contributes to the building of the social impact ecosystem by publishing reports on the developments and research regarding impact investing.</p>
+  </div>
+</div>
+
+<div class="to-hide gallery three-col" id="Incubator">
+  <div class="col col-nav gallery-thumbs" id="gallery-thumbs">
+    <div class="current">
+      <img src="/images/ecosystem/incubator/small/Tides-Logo.png" alt="Tides Foundation"
+      data-large-version="/images/ecosystem/incubator/large/Tides-Large.png"
+      data-title="Tides Foundation"
+      data-location="Location: San Francisco, CA"
+      data-website="https://www.tides.org/"
+      data-description="Tides is a 'Philanthropic partner and nonprofit accelerator dedicated to build a world of shared prosperity and social justice.' Their approach is reliant on bridging unlikely partners together such as corporate partners, individual donors, social change leaders, and foundations in order to advance social good.">
+    </div>
+  </div>
+  <div class="col col-content">
+    <div class="gallery-photo" id="gallery-photo">
+      <img src="/images/ecosystem/incubator/large/Tides-Large.png" alt="Tides Foundation">
+    </div>
+  </div>
+  <div class="col col-aside gallery-info" id="gallery-info">
+    <h3 class="title">Tides Foundation</h3>
+    <h4 class="location">Location: San Francisco, CA</h4>
+    <a href="https://www.tides.org/" target="_blank" class="website">https://www.tides.org/</a>
+    <p class="description">Tides is a 'Philanthropic partner and nonprofit accelerator dedicated to build a world of shared prosperity and social justice.' Their approach is reliant on bridging unlikely partners together such as corporate partners, individual donors, social change leaders, and foundations in order to advance social good.</p>
+  </div>
+</div>
+
+    </div>
+
+    <footer class="footer">
+  <a class="footer-logo" href="/">
+    <img src="/images/spark.png" alt="Spark Logo"/>
+  </a>
+  <nav>
+    <ul class="footer-nav nav-links">
+      <li><a href="/">Home</a></li>
+<li><a href="/spectrum">The Spectrum</a></li>
+<li><a href="/learnmore">Learn More</a></li>
+<li><a href="/about">About Us</a></li>
+
+    </ul>
+  </nav>
+  <h3>Change the World</h3>
+</footer>
+
+  </body>
+</html>

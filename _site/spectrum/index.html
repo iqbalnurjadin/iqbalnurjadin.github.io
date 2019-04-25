@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Test Page: Don't Panic</title>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+  <script src="/js/gallery.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      setNone();
+      activateGallery();
+    });
+  </script>
+</head>
+
+  <body>
+    <header class="header">
+  <nav>
+    <ul class="header-nav nav-links">
+      <li><a href="/">Home</a></li>
+<li><a href="/spectrum">The Spectrum</a></li>
+<li><a href="/learnmore">Learn More</a></li>
+<li><a href="/about">About Us</a></li>
+
+    </ul>
+  </nav>
+  <a href="/" class="header-logo">
+    <img src="/images/spark.png" alt="Spark Logo">
+  </a>
+</header>
+
+
+    <div class="content-container">
+      <h1 class="diagram-title">THE SOCIAL IMPACT SPECTRUM</h1>
+<h3 class="diagram-description">CLICK ON THE BUTTONS BELOW TO LEARN MORE ABOUT EACH CATEGORY</h3>
+<div class="spectrum-page">
+  <img src="/images/arrow.png" class="spectrum-image">
+  <div class="spectrum-diagram">
+    <button onclick="nonprofitFunc()" class="home-button">NON-PROFIT</button>
+    <button onclick="socialimpactFunc()" class="home-button">SOCIAL IMPACT</button>
+    <button onclick="forprofitFunc()" class="home-button">FOR-PROFIT</button>
+  </div>
+  <div class="three-col">
+    <div class="to-hide nonprofit" id="nonprofit">
+      <p>
+        As there are countless nonprofits in the Bay Area, we highlight several innovative nonprofits that pursue a wide array of social mission ranging from international development, civic governance, to education. These nonprofits adopts unique models and approaches as they integrate technology, business, and social impact.
+      </p>
+    </div>
+    <div class="to-hide socialimpact" id="socialimpact">
+      <p>
+        Social impact organizations are impact-first organizations that encompasses social impact consulting firms, social enterprises, and ecosystem builders including impact investors. Click on each button below to learn more about each category.
+      <p>
+      <button onclick="consultingFunc()" class="home-button">SOCIAL IMPACT CONSULTING</button>
+      <div class="to-hide impact-info" id="consulting">
+        <p>
+          Social impact consultants help nonprofits, foundations, governments and mission-driven organizations solve complex problems by offering a broad array of services including strategic planning, evaluation, research an implementation.
+        </p>
+      </div>
+      <p>
+      <p>
+      <button onclick="enterpriseFunc()" class="home-button">SOCIAL ENTERPRISES</button>
+      <div class="to-hide impact-info" id="enterprise">
+        <p>
+          Social Entrepreneurship is a broad umbrella term that has taken variety of meanings. In it’s very essence, social enterprises are organizations that create both an economic value while simultaneously creating value for the society. We define social entrepreneurship as:
+        </p>
+        <h3>“An innovative  innovative, social-value-creating activity that can occur within or across the nonprofit, business, or government sector.”</h3>
+        <p>
+          Social enterprises encompass all sectors of society and are not bounded to one legal structure of organization. What is key is that the social value has to be explicit and is at the forefront of the organization, and not a by-product.
+        </p>
+      </div>
+      <button onclick="ecosystemFunc()" class="home-button">ECOSYSTEM BUILDERS</button>
+      <div class="to-hide impact-info" id="ecosystem">
+        <p>
+          Since the social impact scene is still very nascent and ill-defined, ecosystem builders are key players in creating the infrastructure in order for social enterprises to thrive. We define ecosystem builders as social enterprises enablers. They provide the different sources of support such as financing, advising, and also knowledge creation.
+        </p>
+      </div>
+    </div>
+    <div class="to-hide forprofit" id="forprofit">
+      <p>
+        We identify key companies in the private sector known for its great corporate social responsibility and sustainability practices. These companies integrate a social mission into their business models and lead the way in the creation of shared values.
+      </p>
+    </div>
+  </div>
+  <h3 class="companies-description">CLICK ON THE CATEGORIES BELOW TO VIEW COMPANIES</h3>
+  <div class="bio-wrapper">
+    <a href="/nonprofit">
+      <div class="bio-box spectrum-box">
+        <img src="/images/non_profit.jpg">
+        <h3>Non-Profits</h3>
+      </div>
+    </a>
+    <a href="/socialimpact">
+      <div class="bio-box spectrum-box">
+        <img src="/images/social_impact.jpg">
+        <h3>Social Impact</h3>
+      </div>
+    </a>
+    <a href="/forprofit">
+      <div class="bio-box spectrum-box">
+        <img src="/images/for_profit.jpg">
+        <h3>For-Profits</h3>
+      </div>
+    </a>
+  </div>
+</div>
+
+    </div>
+
+    <footer class="footer">
+  <a class="footer-logo" href="/">
+    <img src="/images/spark.png" alt="Spark Logo"/>
+  </a>
+  <nav>
+    <ul class="footer-nav nav-links">
+      <li><a href="/">Home</a></li>
+<li><a href="/spectrum">The Spectrum</a></li>
+<li><a href="/learnmore">Learn More</a></li>
+<li><a href="/about">About Us</a></li>
+
+    </ul>
+  </nav>
+  <h3>Change the World</h3>
+</footer>
+
+  </body>
+</html>

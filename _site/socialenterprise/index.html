@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Test Page: Don't Panic</title>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+  <script src="/js/gallery.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      setNone();
+      activateGallery();
+    });
+  </script>
+</head>
+
+  <body>
+    <header class="header">
+  <nav>
+    <ul class="header-nav nav-links">
+      <li><a href="/">Home</a></li>
+<li><a href="/spectrum">The Spectrum</a></li>
+<li><a href="/learnmore">Learn More</a></li>
+<li><a href="/about">About Us</a></li>
+
+    </ul>
+  </nav>
+  <a href="/" class="header-logo">
+    <img src="/images/spark.png" alt="Spark Logo">
+  </a>
+</header>
+
+
+    <div class="content-container">
+      <h1 class="diagram-title">Social Impact</h1>
+<div class="social-filter nav-links">
+  <a href="/socialimpact">Social Impact Consulting</a>
+  <a class="main-social-page">Social Enterprises</a>
+  <a href="/ecosystem">Ecosystem Builders</a>
+</div>
+<div class="gal-buttons">
+  <button onclick="techFunc()" class="gallery-button">Tech</button>
+  <button onclick="financeFunc()" class="gallery-button">Finance</button>
+  <button onclick="eduFunc()" class="gallery-button">Education</button>
+</div>
+
+<div class="to-hide gallery three-col" id="Tech">
+  <div class="col col-nav gallery-thumbs" id="gallery-thumbs">
+    <div class="current">
+      <img src="/images/enterprise/tech/small/Andela-Logo.jpg" alt="Andela"
+      data-large-version="/images/enterprise/tech/large/Andela-Large.jpg"
+      data-title="Andela"
+      data-location="Location: San Francisco, CA"
+      data-website="https://andela.com/"
+      data-description="Mission to solve the global technology talent shortage by building high performing engineering teams with Africa’s most talented software developers. This is Mark Zuckerberg’s first big tech investment in Africa. It has a mission to help grow the tech ecosystem across the African ecosystem.">
+    </div>
+    <div>
+      <img src="/images/enterprise/tech/small/Banqu-Logo.jpg" alt="BanQu"
+      data-large-version="/images/enterprise/tech/large/Banqu-Large.png"
+      data-title="BanQu"
+      data-location="Location: San Francisco, California"
+      data-website="https://banqu.co/"
+      data-description="A for-profit social enterprise that helps lift people out of poverty by using blockchain technology to help create people’s digital identity. They help connect the unbanked to the global economy by setting up a personal digital identification profile while connecting them to global supply chains.">
+    </div>
+    <div>
+      <img src="/images/enterprise/tech/small/Benetech-Logo.png" alt="Benetech"
+      data-large-version="/images/enterprise/tech/large/Benetech-Large.jpg"
+      data-title="Benetech"
+      data-location="Location: Palo Alto, CA"
+      data-website="https://benetech.org/"
+      data-description="An organization that harness the power of software and data to empower communities. Benetech uses software applications and data solutions to make education accessible, protect the environment, defend human rights, and level the playing field of community members. Benetech uses technology to bring about social justice by bridging social sector with Silicon Valley.">
+    </div>
+    <div>
+      <img src="/images/enterprise/tech/small/Change-Logo.png" alt="Change.org"
+      data-large-version="/images/enterprise/tech/large/Change-Large.png"
+      data-title="Change.org"
+      data-location="Location: San Francisco, CA"
+      data-website="https://www.change.org/"
+      data-description="A for-profit company that creates a petition website where it helps people everywhere start campaigns and help mobilize supporters. It is a certified B-corp and have over 240 million users and host sponsored campaigns for organizations.">
+    </div>
+    <div>
+      <img src="/images/enterprise/tech/small/Copia-Logo.jpg" alt="Copia"
+      data-large-version="/images/enterprise/tech/large/Copia-Large.png"
+      data-title="Copia"
+      data-location="Location: San Francisco, CA"
+      data-website="https://www.gocopia.com/"
+      data-description="Copia’s technology allows businesses to safely donate their excess food, access enhanced tax deduction, and receive powerful data to inform food purchasing decisions. Restaraunts, hotels, hospitals and other businesses use Copia’s app to schedule pickups for their surplus food.">
+    </div>
+    <div>
+      <img src="/images/enterprise/tech/small/Diginido-Logo.png" alt="Diginido Labs"
+      data-large-version="/images/enterprise/tech/large/Diginido-Large.png"
+      data-title="Diginido Labs"
+      data-location="Location: Sacramento, CA"
+      data-website="https://www.diginido.com/"
+      data-description="A software design and development team of socially-driven activist of technologists. They support projects and partner with NGOs in order to advance social good. They help founders  realize their mission of advancing good through assisting in the development of mobile and web technologies, help design user experience and interfaces, and help with the creation of the protoype.">
+    </div>
+    <div>
+      <img src="/images/enterprise/tech/small/FF-Logo.jpg" alt="FastForward"
+      data-large-version="/images/enterprise/tech/large/FF-Large.png"
+      data-title="FastForward"
+      data-location="Location: San Francisco, CA"
+      data-website="https://www.ffwd.org/"
+      data-description="FastForward invests in entrepreneurs who are using technology to accelerate social impact. They invest in products and programs that bridge technology and nonprofit sectors to build capacity for tech nonprofits. They focus on scaling organizations that combine the best tech with sustainable nonprofit business model.">
+    </div>
+    <div>
+      <img src="/images/enterprise/tech/small/Give-Logo.png" alt="Give Directly"
+      data-large-version="/images/enterprise/tech/large/Give-Large.png"
+      data-title="Give Directly"
+      data-location="Location: New York, NY"
+      data-website="https://www.givedirectly.org/"
+      data-description="Give directly aims to reshape international giving by using technology to allow people to send money directly to people living in extreme poverty. They manage transfers end-to-end using electronic monitoring and payment technology.">
+    </div>
+    <div>
+      <img src="/images/enterprise/tech/small/Hand-Logo.png" alt="HandUp"
+      data-large-version="/images/enterprise/tech/large/Hand-Large.png"
+      data-title="HandUp"
+      data-location="Location: San Francisco, CA"
+      data-website="https://handup.org/"
+      data-description="An organization that makes direct giving for the homeless and others at-risk easy. Through their platform, they are able to ensure that donations go directly to those in need. Donors will get total transparency and will be able to view their impact.">
+    </div>
+    <div>
+      <img src="/images/enterprise/tech/small/IDEO-Logo.jpg" alt="IDEO"
+      data-large-version="/images/enterprise/tech/large/IDEO-Large.jpg"
+      data-title="IDEO.org"
+      data-location="Locations: San Francisco, New York City, Nairobi"
+      data-website="https://www.ideo.org/"
+      data-description="IDEO is a global design company that uses  human-centred design to create products, services, and experiences that improve the lives of people living in poverty. Through their designs and innovation, they push the boundaries of technology to solve pressing issues like global food challenges, mobility, education and public systems.">
+    </div>
+    <div>
+      <img src="/images/enterprise/tech/small/ITT-Logo.jpg" alt="ITT"
+      data-large-version="/images/enterprise/tech/large/ITT-Large.png"
+      data-title="Institute for Transformative Technologies"
+      data-location="Location: Palo Alto, CA"
+      data-website="https://transformativetechnologies.org/"
+      data-description="An organization that helps develop and democratize breakthrough and human-centered design technologies to the right actors and the right markets. Since 2015, their work has contributed to the alleviation of poverty in Kenya, Nigeria, and Africa. Their technologies vary from solving issues of rural electrification to clean water, food security, and preventative and primary care.">
+    </div>
+    <div>
+      <img src="/images/enterprise/tech/small/Labor-Logo.jpg" alt="Labor Voices"
+      data-large-version="/images/enterprise/tech/large/Labor-Large.jpg"
+      data-title="Labor Voices"
+      data-location="Location: San Francisco, CA"
+      data-website="https://laborvoices.com/"
+      data-description="Labor Voices is a for-profit social enterprise that gathers intelligence on supply chains through crowdsourced worker feedback. It helps global brands and their suppliers detect and prevent issues such as fire hazards, illegal migrant labor, wage violations, and child labor. They gather intelligence via mobile technology.">
+    </div>
+  </div>
+  <div class="col col-content">
+    <div class="gallery-photo" id="gallery-photo">
+      <img src="/images/enterprise/tech/large/Andela-Large.jpg" alt="Andela">
+    </div>
+  </div>
+  <div class="col col-aside gallery-info" id="gallery-info">
+    <h3 class="title">Andela</h3>
+    <h4 class="location">Location: San Francisco, CA</h4>
+    <a href="https://andela.com/" target="_blank" class="website">https://andela.com/</a>
+    <p class="description">Mission to solve the global technology talent shortage by building high performing engineering teams with Africa’s most talented software developers. This is Mark Zuckerberg’s first big tech investment in Africa. It has a mission to help grow the tech ecosystem across the African ecosystem.</p>
+  </div>
+  </div>
+</div>
+
+<div class="to-hide gallery three-col" id="Finance">
+  <div class="col col-nav gallery-thumbs" id="gallery-thumbs">
+    <div class="current">
+      <img src="/images/enterprise/finance/small/Aspiration-Logo.jpg" alt="Aspiration"
+      data-large-version="/images/enterprise/finance/large/Aspiration-Large.png"
+      data-title="Aspiration"
+      data-location="Location: San Francisco, CA"
+      data-website="https://www.aspiration.com/"
+      data-description="An online financial firm with a conscience that is founded on the principles of trust and committed to giving 10% of earnings to notable charities. They provide banking services with $0 ATM and monthly fee and invests client’s deposits to socially-responsible investing options. This provides a way for individuals to do good while saving money.">
+    </div>
+    <div>
+      <img src="/images/enterprise/finance/small/Branch-Logo.jpg" alt="Branch International"
+      data-large-version="/images/enterprise/finance/large/Branch-Large.png"
+      data-title="Branch International"
+      data-location="Location: San Francisco, CA"
+      data-website="https://branch.co/"
+      data-description="A for-profit socially conscious company that uses data science and technology to reduce the cost of delivering financial services. They believe that with this new mobile generation, there is an opportunity for everyone to have access to banking options. Branch provides a way to access credit over a smartphone in emerging markets. Everything is smartphone based in order to bypass traditional institutions.">
+    </div>
+    <div>
+      <img src="/images/enterprise/finance/small/Earnest-Logo.png" alt="Earnest"
+      data-large-version="/images/enterprise/finance/large/Earnest-Large.png"
+      data-title="Earnest"
+      data-location="Location: San Francisco, CA"
+      data-website="https://www.earnest.com/"
+      data-description="A financial technology company that believes that many financially responsible people are not getting the credit they deserve. Thus, they offer the low rates and high quality services to people who are typically sidelined.">
+    </div>
+    <div>
+      <img src="/images/enterprise/finance/small/Funding-Logo.png" alt="Funding Circle"
+      data-large-version="/images/enterprise/finance/large/Funding-Large.jpg"
+      data-title="Funding Circle"
+      data-location="Location: San Francisco, CA"
+      data-website="https://www.fundingcircle.com/us/"
+      data-description="Funding circle helps connect investors with businesses looking for a capital. By using a peer to peer small business lending model, they are able to offer loans with much lower interest rates. Funding Circle aims to help small businesses grow by connecting small business owners with account managers and business loans.">
+    </div>
+    <div>
+      <img src="/images/enterprise/finance/small/Kiva-Logo.png" alt="Kiva"
+      data-large-version="/images/enterprise/finance/large/Kiva-Large.png"
+      data-title="Kiva"
+      data-location="Location: San Francisco, CA"
+      data-website="https://www.kiva.org/"
+      data-description="Kiva is an international non-profit that has a mission to expand financial access to underserved communities by crowdfunding loans and unlocking capital.">
+    </div>
+    <div>
+      <img src="/images/enterprise/finance/small/LendUp-Logo.jpg" alt="LendUp"
+      data-large-version="/images/enterprise/finance/large/LendUp-Large.png"
+      data-title="LendUp"
+      data-location="Location: San Francisco, CA"
+      data-website="https://www.lendup.com/"
+      data-description="A financial technology startup that believes that everyone deserves access to quality credit. They provide credit cards designed to improve financial health, short-term loans when needed, and education for financial literacy and other resources. Through their products, they aim to help those with poor credit scores to have access to quality financial products. Their vision is to use technology and innovation to create better credit products.">
+    </div>
+    <div>
+      <img src="/images/enterprise/finance/small/Mint-Logo.png" alt="Mint"
+      data-large-version="/images/enterprise/finance/large/Mint-Large.jpg"
+      data-title="Mint"
+      data-location="Location: San Francisco, CA"
+      data-website="https://www.mint.com"
+      data-description="Mint is a web-based personal financial management service that allows user to manage their finances all in one centralized platform. Through Mint, users can see their credit score, budget, set alerts and advice, and track investments in a safe and secure manner.">
+    </div>
+    <div>
+      <img src="/images/enterprise/finance/small/Nerdwallet-Logo.jpg" alt="Nerd Wallet"
+      data-large-version="/images/enterprise/finance/large/Nerdwallet-Large.png"
+      data-title="Nerd Wallet"
+      data-location="Location: San Francisco, CA"
+      data-website="https://www.nerdwallet.com/"
+      data-description="Mission to provide clarity for people in making financial decisions such as decisions financial products like credit card and insurance, and help them achieve their financial goals such as buying a house or saving for retirement. Through their platform, people can make better financial decisions.">
+    </div>
+    <div>
+      <img src="/images/enterprise/finance/small/Open-Logo.jpg" alt="Open Invest"
+      data-large-version="/images/enterprise/finance/large/Open-Large.png"
+      data-title="Open Invest"
+      data-location="Location: San Francisco, CA"
+      data-website="https://www.openinvest.co/"
+      data-description="A public benefit corporation dedicated to make socially responsible investing accessible and easy. They aim to help people integrate their social values into their financial portfolios. People can choose to divest from Carbon Emissions Pollution, divest from Fossil Fuels Producers, Invest in Companies Supporting Refugees, Invest in Ethical Supply Chain, and Invest in Women in the Workplace.">
+    </div>
+    <div>
+      <img src="/images/enterprise/finance/small/Oportun-Logo.png" alt="Oportun"
+      data-large-version="/images/enterprise/finance/large/Oportun-Large.jpg"
+      data-title="Oportun"
+      data-location="Location: San Francisco, CA"
+      data-website="https://www.oportun.com/en/"
+      data-description="Oportun provides affordable financial services to empower customers to build a better future. They use advanced data analytics and technology to ‘score’ and lend money to individuals with limited credit history. They provide loans even to those who doesn’t have any credit history and help customers build credit history.">
+    </div>
+    <div>
+      <img src="/images/enterprise/finance/small/Prosper-Logo.jpg" alt="Prosper"
+      data-large-version="/images/enterprise/finance/large/Prosper-Large.png"
+      data-title="Prosper"
+      data-location="Location: San Francisco, CA"
+      data-website="https://www.prosper.com"
+      data-description="Prosper is an online peer-to-peer lending platform with a mission to advance individual’s financial wellbeing. Through their platform, individuals can either invest in personal loans or request to borrow money and get a low rate with a flexible repayment schedule. Prosper has facilitated more than $14 billion in loans to more than 870,000 people.">
+    </div>
+    <div>
+      <img src="/images/enterprise/finance/small/Square-Logo.jpg" alt="Square"
+      data-large-version="/images/enterprise/finance/large/Square-Large.jpg"
+      data-title="Square"
+      data-location="Location: San Francisco, CA"
+      data-website="https://www.squareup.com/"
+      data-description="Square believes that everyone should have access and have the ability to participate in the economy. Through their products, Square helps businesses of all size accept payment, track sales, manage inventory, and many more. It’s a financial service, merchant service aggregator and mobile payment company that changes the way we spend, save, sell and invest.">
+    </div>
+    <div>
+      <img src="/images/enterprise/finance/small/Stripe-Logo.png" alt="Stripe"
+      data-large-version="/images/enterprise/finance/large/Stripe-Large.png"
+      data-title="Stripe"
+      data-location="Location: San Francisco, CA"
+      data-website="https://www.stripe.com/"
+      data-description="A technology company that builds software platform that helps internet businesses thrive. It’s product provide a complete toolkit for internet business - ranging from a subscription service, an on-demand marketplace, e-commerce store, and crowdfunding platforms. They aim to help transform how modern businesses are built and run. Their mission is to increase economic access for entrepreneurs all around the world. Stripe is also committed to mitigating their environmental impact.">
+    </div>
+    <div>
+      <img src="/images/enterprise/finance/small/Wisebanyan-Logo.png" alt="Wisebanyan"
+      data-large-version="/images/enterprise/finance/large/Wisebanyan-Large.png"
+      data-title="Wisebanyan"
+      data-location="Location: San Francisco, CA"
+      data-website="https://www.wisebanyan.com"
+      data-description="Wisebanyan through the use of technology helps people create an investment portfolio with only $1 and zero fees. It is a robo advisor service that helps build and manage people’s investment plans for free. This is a financials service that is accessible to everyone since they do not charge investment management, trading or rebalancing fees and do not required minimum account balance.">
+    </div>
+    <div>
+      <img src="/images/enterprise/finance/small/Zidisha-Logo.png" alt="Zidisha"
+      data-large-version="/images/enterprise/finance/large/Zidisha-Large.png"
+      data-title="Zidisha"
+      data-location="Location: San Francisco, CA"
+      data-website="https://www.zidisha.org/"
+      data-description="A non-profit social enterprise that offers microfinance services directly to entrepreneurs in developing countries. Through a crowdsourcing platform, it allows people to lend small amounts of money directly to entrepreneur. It is one of the first peer-to-peer microlending services without the need of a local microfinance institution.">
+    </div>
+  </div>
+  <div class="col col-content">
+    <div class="gallery-photo" id="gallery-photo">
+      <img src="/images/enterprise/finance/large/Aspiration-Large.png" alt="Aspiration">
+    </div>
+  </div>
+  <div class="col col-aside gallery-info" id="gallery-info">
+    <h3 class="title">Aspiration</h3>
+    <h4 class="location">Location: San Francisco, CA</h4>
+    <a href="https://www.aspiration.com/" target="_blank" class="website">https://www.aspiration.com/</a>
+    <p class="description">An online financial firm with a conscience that is founded on the principles of trust and committed to giving 10% of earnings to notable charities. They provide banking services with $0 ATM and monthly fee and invests client’s deposits to socially-responsible investing options. This provides a way for individuals to do good while saving money.</p>
+  </div>
+</div>
+
+<div class="to-hide gallery three-col" id="Education">
+  <div class="col col-nav gallery-thumbs" id="gallery-thumbs">
+    <div class="current">
+      <img src="/images/enterprise/education/small/Khan-Logo.png" alt="Khan Academy"
+      data-large-version="/images/enterprise/education/large/Khan-Large.jpg"
+      data-title="Khan Academy"
+      data-location="Location: San Jose, CA"
+      data-website="https://www.khanacademy.org/"
+      data-description="A nonprofit social enterprise with a goal to help education people through the creation of online tools and videos. Khan Academy has a mission to provide free, world-class education for anyone and anywhere. It empowers students to learn in their own pace in and out of the classroom.">
+    </div>
+  </div>
+  <div class="col col-content">
+    <div class="gallery-photo" id="gallery-photo">
+      <img src="/images/enterprise/education/large/Khan-Large.jpg" alt="Khan Academy">
+    </div>
+  </div>
+  <div class="col col-aside gallery-info" id="gallery-info">
+    <h3 class="title">Khan Academy</h3>
+    <h4 class="location">Location: San Jose, CA</h4>
+    <a href="https://www.khanacademy.org/" target="_blank" class="website">https://www.khanacademy.org/</a>
+    <p class="description">A nonprofit social enterprise with a goal to help education people through the creation of online tools and videos. Khan Academy has a mission to provide free, world-class education for anyone and anywhere. It empowers students to learn in their own pace in and out of the classroom.</p>
+  </div>
+</div>
+
+    </div>
+
+    <footer class="footer">
+  <a class="footer-logo" href="/">
+    <img src="/images/spark.png" alt="Spark Logo"/>
+  </a>
+  <nav>
+    <ul class="footer-nav nav-links">
+      <li><a href="/">Home</a></li>
+<li><a href="/spectrum">The Spectrum</a></li>
+<li><a href="/learnmore">Learn More</a></li>
+<li><a href="/about">About Us</a></li>
+
+    </ul>
+  </nav>
+  <h3>Change the World</h3>
+</footer>
+
+  </body>
+</html>
